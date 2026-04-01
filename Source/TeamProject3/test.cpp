@@ -15,6 +15,8 @@ Atest::Atest()
 void Atest::BeginPlay()
 {
 	Super::BeginPlay();
+
+	UE_LOG(TempLog, Log, TEXT("테스트입니다"));
 	
 }
 
